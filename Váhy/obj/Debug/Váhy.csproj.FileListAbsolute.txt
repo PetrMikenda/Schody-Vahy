@@ -1,0 +1,7 @@
+C:\Users\miken\source\repos\Schody, Váhy\Váhy\bin\Debug\Váhy.exe.config
+C:\Users\miken\source\repos\Schody, Váhy\Váhy\bin\Debug\Váhy.exe
+C:\Users\miken\source\repos\Schody, Váhy\Váhy\bin\Debug\Váhy.pdb
+C:\Users\miken\source\repos\Schody, Váhy\Váhy\obj\Debug\Váhy.csprojAssemblyReference.cache
+C:\Users\miken\source\repos\Schody, Váhy\Váhy\obj\Debug\Váhy.csproj.CoreCompileInputs.cache
+C:\Users\miken\source\repos\Schody, Váhy\Váhy\obj\Debug\Váhy.exe
+C:\Users\miken\source\repos\Schody, Váhy\Váhy\obj\Debug\Váhy.pdb

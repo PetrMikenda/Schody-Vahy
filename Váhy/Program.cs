@@ -10,7 +10,8 @@ namespace Váhy
     {
         static void Main(string[] args)
         {
-
+            Vaha v1 = new Vaha(10, 10);
+            Console.ReadKey();
         }
     }
 }
