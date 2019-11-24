@@ -19,11 +19,23 @@ namespace Váhy
                 string count;
                 Console.WriteLine("Zadej základ soustavy: ");
                 power = Console.ReadLine();
-                int x = Int32.Parse(power);
-                Console.WriteLine("Zadej počet vah: ");
-                count = Console.ReadLine();
-                int y = Int32.Parse(count);
-                Vaha v1 = new Vaha(x, y);
+                if (Char.IsNumber(char.Parse(power)))
+                {
+                    
+                    int x = Int32.Parse(power);
+                    Console.WriteLine("Zadej počet vah: ");
+                    count = Console.ReadLine();
+                    if (Char.IsNumber(char.Parse(count)))
+                    {
+                        int y = Int32.Parse(count);
+                        Vaha v1 = new Vaha(x, y);
+                    }
+                    else
+                        Console.WriteLine("Zadaná hodnota není číslo");
+                }
+                else
+                    Console.WriteLine("Zadaná hodnota není číslo");
+
                 Console.WriteLine("\nChceš vypsat další váhy? [A]");
                 ans = Console.ReadKey();
             } while (ans.Key == ConsoleKey.A || ans.Key == ConsoleKey.Enter);
